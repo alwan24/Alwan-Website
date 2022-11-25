@@ -9,7 +9,7 @@ function login(){
     || username == "Nafih" && password == 1016 || username == "Rabeeh" && password == 1026  || username == "Shabeer" && password == 1010 || username == "Ajumal" && password == 1018 
     || username == "Murshid" && password == 1014 || username == "Aflah" && password == 1006 || username == "Shammas" && password == 1041 || username == "Sahal" && password == 1031
     || username == "Ihsan" && password == 1019 || username == "Salman" && password == 1039  || username == "Rinshad" && password == 998 || username == "Nihal" && password == 1030
-    || username == "Juraij" && password == 1022 || username == "Basith" && password == 970 || username == "Shidad" && password == 997 || username == "Sanih" && password == 975 
+    || username == "Juraij" && password == 1021 || username == "Basith" && password == 970 || username == "Shidad" && password == 997 || username == "Sanih" && password == 975 
     || username == "Ikram" && password == 993){
         window.open("./"+password+".html", "_blank");
     }else{

@@ -259,11 +259,7 @@
     background-size: contain;
 }
 
-@media (max-width: 991.98px) {
-    .bg-testimonial {
-        background-size: cover;
-    }
-}
+
 
 .testimonial-carousel .owl-nav {
     margin-top: 30px;
@@ -305,6 +301,29 @@
 .bg-footer {
     background: url(../img/footer.jpg) center center no-repeat;
     background-size: contain;
+}
+
+.button{
+   background-color: #FFE468;
+   width: 50%;
+   border-radius: 11px;
+    height: 70%;
+    display: grid;
+    place-items: center;
+    font-size: 3vmin;   
+}
+.b-1{
+    border-radius: 10%;
+    width: 400px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 11px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(243, 260, 200);
+    border-color: rgb(0, 0, 0);
+    color:  rgb(243, 260, 200);
 }
 
 @media (max-width: 991.98px) {

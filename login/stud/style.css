@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+body{
+    background-color: #ffe468;
+    overflow-x: hidden;
+}
+
+.header{
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    display: grid;
+    place-items: center;
+    font-size: 3vmin;
+}
+
+.main-wrapper{
+    width: 75%;
+    background-color: white;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 11px;
+    padding: 30px;
+}
+.main-wrapper-1{
+    width: 80%;
+    background-color: white;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 11px;
+    padding: 30px;
+}
+
+
+.head{
+    padding: 25px;
+}
+
+.results{
+    width: 100%;
+}
+
+.results tr{
+    margin: 0;
+    padding: 5px;
+}
+
+.results th{
+    margin: 0;
+    padding: 5px;
+}
+
+.results td{
+    margin: 0;
+    padding: 7px;
+    font-weight: 100;
+}
+
+.student-details{
+    width: 100%;
+    display: flex;
+    margin: 30px;
+}
+
+.text-details{
+    text-align: left;
+}
+
+.details-head{
+    display: inline;
+}
+
+.details{
+    display: inline;
+}
+
+.img-container img{
+    width: 150px;
+    transform: translateX(300%);
+}
+
+.back{
+    position: absolute;
+    padding-top: 50px;
+}
+ .shape{
+    background-color: white;
+ }
+
+ .img-1{
+    width: 100px;
+ }
+
+ p{
+    color: rgb(124, 124, 124);
+    position: absolute;
+ }
+ 
+.t-1{
+    padding-right: 10vh;
+}
+
+.k-1{
+    width: 50px;
+}
+.play{
+    width: 90%;
+}
+.play-2{
+    display: none;
+}
+@media screen and (max-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
+    .header{
+        width: 100%;
+    }
+    .results td{
+        word-wrap: break-word;
+    }
+    .student-details{
+        flex-direction: column-reverse;
+    }
+    .img-container img{
+        transform: translateX(-50px);
+    }
+    .play{
+        transform: translateX(-33px);
+        width: 130%;
+    }
+    .play-2{
+        width: 100%;
+    }
+}

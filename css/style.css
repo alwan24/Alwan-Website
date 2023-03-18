@@ -305,9 +305,9 @@
 
 .button{
    background-color: #FFE468;
-   width: 50%;
+   width: 70%;
    border-radius: 11px;
-    height: 70%;
+    height: 80%;
     display: grid;
     place-items: center;
     font-size: 3vmin;   
@@ -326,9 +326,14 @@ button:hover{
     color:  rgb(243, 260, 200);
 }
 
+
 @media (max-width: 991.98px) {
     .bg-call-to-action,
     .bg-footer {
         background-size: cover;
+    }
+    .b-1{
+        width: 200px;
+        height: 70px;
     }
 }
